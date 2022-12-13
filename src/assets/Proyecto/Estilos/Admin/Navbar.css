@@ -5,7 +5,7 @@
   display: flex;
   font-family: tipo_letra;
   /*ESTRUCTURA/*/
-  background: rgba(51, 184, 229, 0.55);
+  background: gray;
   position: sticky;
   top: 0px;
   z-index: 1;

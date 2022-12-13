@@ -171,7 +171,7 @@ const routes = [
     name: "Admin",
     components: {
       default: Admin,
-      // NavBar: NavBarAdmin,
+      NavBar: NavBarAdmin,
       Aside: AsideAdmin,
     },
     children: [

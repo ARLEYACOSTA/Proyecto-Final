@@ -16,6 +16,7 @@ html {
   /* display: none; */
 min-height: 50vh !important;
 overflow: scroll;
+font-family: tipo_letra;
   /* width: 100vw; */
 }
 

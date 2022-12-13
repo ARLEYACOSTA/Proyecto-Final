@@ -9,13 +9,13 @@
     left: 0;
     height: 90%;
     width: 78px;
-    background: #07778d;
+     background: gray;
     padding: 6px 14px;
     transition: all 0.5s ease;
     justify-content: center;
     align-content: center;
     padding: 1rem;
-    top: 7.9rem;
+    top: 5rem;
 }
 .sidebar.active{
     width: 240px;
@@ -134,7 +134,7 @@ background-color: rgb(208, 239, 6) !important;}
     color: #1d1b31;
 }
 .sidebar ul li a{
-    color: rgb(255, 248, 248);
+    color:white;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -143,7 +143,7 @@ background-color: rgb(208, 239, 6) !important;}
     white-space: nowrap;
 }
 .sidebar ul li a:hover{
-    color: #11101d;
+    color: white;
     background: #fff;
 }
 .sidebar ul li i{

@@ -32,8 +32,8 @@
 
 #logo {
   display: flex;
-  background-image: url(/src\assets\Proyecto\Logo\logo2.png) !important ;
-  background: rgba(255, 255, 255, 0.468) ;
+  background-image: url(/src\assets\Proyecto\Logo\logoSena.png) !important ;
+  background: none ;
   border-radius: 1rem;
   margin: 1rem;
   margin-right: 5rem;
@@ -41,7 +41,7 @@
   background-repeat: no-repeat;
   height: 4rem;
   background-position: center;
-  width: 10%;
+  width:10%;
   border: 0px solid red;
 }
 

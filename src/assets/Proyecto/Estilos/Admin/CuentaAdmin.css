@@ -3,12 +3,14 @@ display: flex;
   /* background-image: url(/src/assets/Proyecto/Imagenes/p.png); */
   background-size: cover;
   border: 0px solid red;
+  height: 100vh;
+  background: white;
   
 
   }
 
 .container{
-  border: 0px solid red;
+  border: 00px solid red;
 }
 
 

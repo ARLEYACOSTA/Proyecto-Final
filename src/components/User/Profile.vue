@@ -9,7 +9,7 @@
         <p>{{ user.email }}</p>
       </div>
 
-      <div class="pho">
+      <!-- <div class="pho">
         <input type="file" id="new-client-input" @change="show_image" />
         <img
           @click="open_browser('new-client-input')"
@@ -30,11 +30,11 @@
           class="loading"
           @click="open_browser('new-client-input')"
         ></div>
-      </div>
+      </div> -->
 
-      <button type="button" class="btn btn-primary" @click="create">
+      <!-- <button type="button" class="btn btn-primary" @click="create">
         Add Client
-      </button>
+      </button> -->
     </div>
     <div class="d">
       <!-- <button class="btn btn-primary" type="button" @click="logout()">Cerrar Sesion</button> -->

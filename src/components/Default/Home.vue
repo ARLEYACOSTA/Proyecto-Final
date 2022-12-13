@@ -27,15 +27,15 @@
       <div class="opciones">
         <div class="card">
           <div class="content" id="card1">
-            <router-link class="link" to="/logc in">
-              <!-- <div>Login</div> -->
+            <router-link class="link" to="/login">
+              <div>Login</div>
             </router-link>
           </div>
         </div>
         <div class="card">
           <div class="content" id="card2">
-            <router-link class="link" to="/Default/Recorrido">
-              <!-- <div>HACER RECORRIDO</div> -->
+            <router-link class="link" to="/Recorrido">
+              <div>HACER RECORRIDO</div>
             </router-link>
           </div>
         </div>

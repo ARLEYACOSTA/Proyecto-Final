@@ -360,7 +360,16 @@ main {
   margin-top: 4.5rem;
   text-align: center;
   justify-content: center;
-  justify-self: center
+  justify-self: center;
+  justify-items: center;
+}
+.profile p{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  justify-items: center;
+  /* border: 1px solid red; */
+  /* width: 20rem; */
 }
 .profile_admin{
   display: flex;

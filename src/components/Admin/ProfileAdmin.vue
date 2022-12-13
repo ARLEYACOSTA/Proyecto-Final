@@ -1,10 +1,18 @@
 <template>
-  <p>Name:{{ user.name }}</p>
-  <p>Email:{{ user.email }}</p>
-  <p>created_at: {{ user.created_at }}</p>
-  <button type="button" @click="logout()">Cerrar Sesion</button>
-
-  
+  <div id="contain3">
+    <div id="nav2_admin_profile">
+      <div class="foto"></div>
+    </div>
+    <div class="profile_admin">
+      Name:
+      <p>{{ user.name }}</p>
+      Email:
+      <p>{{ user.email }}</p>
+      created_at:
+      <p>{{ user.created_at }}</p>
+    </div>
+    <button type="button" @click="logout()">Cerrar Sesion</button>
+  </div>
 </template>
 
 <style scoped>

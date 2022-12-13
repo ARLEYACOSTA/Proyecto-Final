@@ -78,8 +78,8 @@
           <span class="material-symbols-outlined"> settings </span>
           <span class="links_name">Setting</span>
         </a>
-        <span class="tooltip">Setting</span>
         </router-link>
+        <span class="tooltip">Setting</span>
       </li>
     </ul>
     <div class="profile_content">

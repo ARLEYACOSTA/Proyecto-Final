@@ -11,14 +11,14 @@ body {
    justify-content: center;
    justify-items: center;
    
-   border: 7px solid black !important;
+   border: 7px solid #117864 !important;
 
 }
 
 #panoramica {
    width: 90vw;
    height: 90vh;
-   border: 7px solid black;
+   border: 7px solid #085344;
    align-self: center;
    /* margin: 1rem; */
 }

@@ -5,9 +5,17 @@
         <div class="foto"></div>
       </nav>
       <div class="profile">
+        NAME:
         <p>{{ user.name }}</p>
+        DNI:
+        <p>{{ user.dni }}</p>
+        E-MAIL:
         <p>{{ user.email }}</p>
+        PHONE:
+        <p>{{ user.phone }}</p>
       </div>
+
+  
 
       <!-- <div class="pho">
         <input type="file" id="new-client-input" @change="show_image" />

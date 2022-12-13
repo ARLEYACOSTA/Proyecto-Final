@@ -296,6 +296,7 @@ main {
 #nav2 {
   /* display: flex;
   flex-flow: column; */
+  display: flex;
   height: 7rem;
   background: #1d1b31;
   font-family: tipo_letra;
@@ -305,6 +306,13 @@ main {
   align-content: center;
   padding: 1rem;
 }
+#nav2_admin_profile{
+  display: flex;
+  text-align: center;
+  
+  /* border: 2px solid red; */
+  margin-top: 1rem;
+}
 .foto {
   width: 10rem;
   height: 10rem;
@@ -313,6 +321,8 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 2rem;
+  
+  justify-self: center;
 }
 #contain1 {
   background: rgba(51, 184, 229, 0.55);
@@ -321,19 +331,46 @@ main {
   flex-flow: column;
 }
 #contain2 {
-  display: flex;
+  /* display: flex; */
   flex-flow: column;
   background: white;
   min-height: 100vh;
   padding: 0%;
+  justify-content: center;
+  justify-items: center;
+}
+#contain3 {
+  display: flex;
+  flex-flow: column;
+  background: white;
+  width: 100%;
+  min-height: 100vh; 
+  /* border: 2px solid red; */
+  align-items: center;
+}
+#contain3 button{
+  text-align: center;
 }
 .profile {
   display: flex;
   flex-flow: column;
-  width: 50%;
+  width: 100%;
   font-family: tipo_letra;
-  border: 0px solid red;
-  margin: 4rem;
+  /* border: 2px solid red; */
+  margin-top: 4.5rem;
+  text-align: center;
+  justify-content: center;
+  justify-self: center
+}
+.profile_admin{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  font-family: tipo_letra;
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  /* border: 2px solid black; */
 }
 
 #contai {
